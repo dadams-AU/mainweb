@@ -1434,42 +1434,15 @@ label {
   border-color: #1e2530;
 }
 
- .button {
-    display: inline-block;
-    color: #ffffff; 
-    background-color: #00244E; 
-    padding: 5px 15px; 
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 50px; 
-    border: 2px solid #00244E;
-    width: 100%;
-    height: 100%;
+ a.link {
+    color: #FF7900;
 }
 
-.button:hover {
-    border-color: #ffffff;
+a.link:hover {
+    color: #99B3B9;
 }
 
-.button:hover {
-    border-color: #ffffff; /* Border color turns white on hover */
+a.link:active {
+    color: #0F3F8C;
 }
-
-.button-container {
-    display: flex;
-    justify-content: center; /* This will center the buttons horizontally */
-}
-
-.button {
-    /* Your previous button styles here... */
-    margin-right: 10px; /* Adjust this value to bring the buttons closer or further apart */
-}
-
-.button:last-child {
-    margin-right: 0; /* This removes the margin from the last button so it aligns correctly */
-}
-
 
