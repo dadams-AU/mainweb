@@ -1340,6 +1340,10 @@ label {
   body {
     overflow-x: hidden;
   }
+	
+  .preview-wrapper {
+    top: 20px; /* decrease this value to move it up */
+  }
   .pt-table {
     height: auto;
   }
