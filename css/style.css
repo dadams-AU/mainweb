@@ -1061,7 +1061,7 @@ label {
 }
 .contact-form textarea.form-control {
   border-radius: 3px;
-  height: 120px;
+  height: 200px;
   padding: 15px 10px 15px 70px;
 }
 .contact-form .message .input-icon {
@@ -1158,7 +1158,7 @@ label {
 
 .switcher-body select {
   border: 1px solid #e5e5e5;
-  height: 40px;
+  height: 200px;
   margin-bottom: 20px;
   width: 100%;
   -webklit--appearance: none;
