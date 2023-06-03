@@ -1153,7 +1153,7 @@ label {
 
 .switcher-body h4 {
   font-size: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .switcher-body select {
@@ -1233,7 +1233,7 @@ label {
   text-align: center;
   line-height: 30px;
   cursor: pointer;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-right: 6px;
 }
 
@@ -1242,19 +1242,19 @@ label {
 }
 
 .theme.light {
-  background-color: #EEE07B; /* Update the color as needed */
+  background-color: #EBFBFF; /* Update the color as needed */
 }
 
 .theme.dark {
-  background-color: #CEC8DC; /* Update the color as needed */
+  background-color: #99B3B9; /* Update the color as needed */
 }
 
 .theme.light:hover, .theme.light.active {
-  background-color: #EEE303; /* Update the hover/active color as needed */
+  background-color: #F8F7F3; /* Update the hover/active color as needed */
 }
 
 .theme.dark:hover, .theme.dark.active {
-  background-color: #4C4B6A; /* Update the hover/active color as needed */
+  background-color: #3C4148; /* Update the hover/active color as needed */
 }
 
 /*------------------------------------------------
