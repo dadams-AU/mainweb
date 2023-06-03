@@ -11,6 +11,15 @@ body {
   color: #ababab;
 }
 
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.secondary {
+    color: #FF7900; /* Replace with the color you want */
+}
+
 
 a {
   color: inherit;
@@ -45,12 +54,12 @@ p:last-child {
  * Selection color
  */
 ::-moz-selection {
-  background-color: #00244E;
+  background-color: #0F3F8C;
   color: #fff;
 }
 
 ::selection {
-  background-color: #00244E;
+  background-color: #0F3F8C;
   color: #fff;
 }
 
@@ -154,7 +163,7 @@ label {
 
 .primary,
 .link:hover {
-  color: #00244E;
+  color: #0F3F8C;
 }
 
 .no-gutter {
@@ -182,7 +191,7 @@ label {
 }
 
 .nicescroll-cursors {
-  background: #00244E !important;
+  background: #0F3F8C !important;
 }
 
 .preloader {
@@ -200,7 +209,7 @@ label {
 }
 
 .loading-mask {
-  background-color: #00244E;
+  background-color: #0F3F8C;
   height: 100%;
   left: 0;
   position: absolute;
@@ -236,7 +245,7 @@ label {
 	Start Styling
 -------------------------------------------------*/
 .site-wrapper {
-  border-top: 4px solid #00244E;
+  border-top: 4px solid #0F3F8C;
 }
 
 .page-close {
@@ -298,7 +307,7 @@ label {
   bottom: 14px;
 }
 .section-title h3::after {
-  background-color: #00244E;
+  background-color: #0F3F8C;
   width: 73px;
 }
 .section-title.light h3 {
@@ -366,7 +375,7 @@ label {
 }
 .hexagon-item:hover .hex-item div::before,
 .hexagon-item:hover .hex-item div::after {
-  background-color: #00244E;
+  background-color: #0F3F8C;
 }
 .hexagon-item:hover .hex-content svg {
   transform: scale(0.97);
@@ -542,7 +551,7 @@ label {
   flex-grow: 1;
 }
 .progress .bar {
-  background-color: #00244E;
+  background-color: #0F3F8C;
   border-radius: 10px;
   height: 8px;
   width: 0;
@@ -564,7 +573,7 @@ label {
 }
 .filter .active {
   color: #FF7900;
-  border-bottom-color: #00244E;
+  border-bottom-color: #0F3F8C;
 }
 
 .works-item {
@@ -754,7 +763,7 @@ label {
   transform: scale(1.5);
 }
 .service-hex:hover .st1 {
-  fill: #00244E;
+  fill: #0F3F8C;
 }
 .service-hex:hover .content {
   width: 135%;
@@ -850,7 +859,7 @@ label {
   display: none;
 }
 .testimonials .slick-dots .slick-active button {
-  border-color: #00244E;
+  border-color: #0F3F8C;
 }
 
 .tm-hex {
@@ -967,13 +976,13 @@ label {
   transform: translate(-50%, -50%);
 }
 .contact-social li:hover span {
-  background-color: #00244E;
+  background-color: #0F3F8C;
 }
 .contact-social li:hover span::before {
-  border-bottom-color: #00244E;
+  border-bottom-color: #0F3F8C;
 }
 .contact-social li:hover span::after {
-  border-top-color: #00244E;
+  border-top-color: #0F3F8C;
 }
 
 .contact-social-hex {
@@ -1003,10 +1012,10 @@ label {
   border-top: 12.41px solid #1e2530;
 }
 .contact-social-hex:hover::after {
-  border-bottom-color: #00244E;
+  border-bottom-color: #0F3F8C;
 }
 .contact-social-hex:hover::before {
-  border-top-color: #00244E;
+  border-top-color: #0F3F8C;
 }
 
 .contact-form .input-field {
@@ -1068,7 +1077,7 @@ label {
 }
 
 .msg-success {
-  color: #00244E;
+  color: #0F3F8C;
 }
 
 .pt-table.desktop-768 .pt-tablecell {
@@ -1175,7 +1184,7 @@ label {
 }
 
 .color-options li.c0 {
-  background-color: #00244E;
+  background-color: #0F3F8C;
 }
 
 .color-options li.c1 {
