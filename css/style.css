@@ -127,6 +127,11 @@ label {
   padding: 7px;
 }
 
+.btn-space {
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+
 /*
  *  CSS Helper Class
  */
