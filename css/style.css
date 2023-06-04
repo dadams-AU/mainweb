@@ -325,9 +325,10 @@ label {
 .page-nav {
   bottom: 40px;
   left: 0;
-  position: absolute;
+  position: relative; /* Change here */
   right: 0;
 }
+
 .page-nav span {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
@@ -1089,7 +1090,7 @@ label {
   padding-bottom: 110px;
   padding-top: 60px;
 }
-.pt-table.desktop-768 .pt-tablecell .page-nav {
+pt-table.desktop-768 .pt-tablecell .page-nav {
   bottom: 40px;
 }
 
@@ -1337,7 +1338,7 @@ label {
     display: block;
     margin: 20px 0;
   }
-}
+
 /*============================================================
 	Mobile (Portrait) Design for a width of 320px
 ==============================================================*/
@@ -1438,16 +1439,18 @@ label {
     margin-right: 0;
   }
   .page-nav {
-    bottom: auto;
-  }
-  .page-nav .flex {
-    display: block;
-    text-align: center;
-  }
-  .page-nav .flex span {
-    display: block;
-    margin: 20px 0;
-  }
+  bottom: auto;
+}
+
+.page-nav .flex {
+  display: block;
+  text-align: center;
+}
+
+.page-nav .flex span {
+  display: block;
+  margin: 20px 0;
+
 }
 .dark {
   background-color: #0c0f15;
@@ -1506,5 +1509,5 @@ body {
 }
 
 nav.page-nav {
-  margin-bottom: auto;
-}
+  margin-top: auto;
+	}
