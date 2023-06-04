@@ -1531,3 +1531,25 @@ nav.page-nav {
     margin-right: 0;
 }
 
+.research-list {
+    padding: 0;
+}
+
+.research-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.research-item:last-child {
+    border-bottom: none;
+}
+
+.research-item a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.research-item a:hover {
+    color: #007bff;
+}
