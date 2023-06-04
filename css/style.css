@@ -1546,10 +1546,34 @@ nav.page-nav {
 
 .research-item a {
     text-decoration: none;
-    color: #000;
+    color: #FF7900;
     font-weight: 600;
 }
 
 .research-item a:hover {
-    color: #007bff;
+    color: #0F3F8C;
 }
+
+.service-list {
+    padding: 0;
+}
+
+.service-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.service-item:last-child {
+    border-bottom: none;
+}
+
+.service-item a {
+    text-decoration: none;
+    color: #FF7900;
+    font-weight: 600;
+}
+
+.service-item a:hover {
+    color: #0F3F8C;
+}
+
