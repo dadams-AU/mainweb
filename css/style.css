@@ -1513,9 +1513,9 @@ nav.page-nav {
 .contact-block {
     background-color: #f5f5f5; /* choose a subtle background color that fits with your website's color scheme */
     padding: 20px; /* add some space around the text inside the contact block */
-    margin-left: 25px; /* add some space to the left of the contact block to separate it from the images */
-	margin-top: 25px;
-    max-width: 80%; /* restrict the width of the contact block, adjust as needed */
+    margin-left: 0px; /* add some space to the left of the contact block to separate it from the images */
+	margin-top: 20px;
+    max-width: 100%; /* restrict the width of the contact block, adjust as needed */
 }
 
 .author-desc p {
