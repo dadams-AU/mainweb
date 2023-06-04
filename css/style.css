@@ -1338,7 +1338,7 @@ pt-table.desktop-768 .pt-tablecell .page-nav {
     display: block;
     margin: 20px 0;
   }
-
+}
 /*============================================================
 	Mobile (Portrait) Design for a width of 320px
 ==============================================================*/
@@ -1439,18 +1439,16 @@ pt-table.desktop-768 .pt-tablecell .page-nav {
     margin-right: 0;
   }
   .page-nav {
-  bottom: auto;
-}
-
-.page-nav .flex {
-  display: block;
-  text-align: center;
-}
-
-.page-nav .flex span {
-  display: block;
-  margin: 20px 0;
-
+    bottom: auto;
+  }
+  .page-nav .flex {
+    display: block;
+    text-align: center;
+  }
+  .page-nav .flex span {
+    display: block;
+    margin: 20px 0;
+  }
 }
 .dark {
   background-color: #0c0f15;
@@ -1510,4 +1508,4 @@ body {
 
 nav.page-nav {
   margin-top: auto;
-	}
+}
