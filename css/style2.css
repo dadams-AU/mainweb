@@ -493,3 +493,18 @@ body.dark .jumbotron {
   margin: 0.3rem 0;
 }
 
+.image-container {
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.image-3d {
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-3d:hover {
+  transform: scale(1.05) rotateX(5deg) rotateY(5deg);
+}
