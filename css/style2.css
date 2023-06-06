@@ -395,4 +395,112 @@ body {
   border-radius: 50%;
 }
 
+.dark {
+  background-color: #0c0f15;
+  color: #f0f0f15;
+}
+
+.dark .title h2, .dark .title h3 {
+  color: #ffffff;
+}
+
+.dark .title.light h3::before {
+  background-color: #ffffff;
+}
+
+.dark .contact-social li a {
+  color: #ffffff;
+  background-color: #0c0f15;
+}
+
+.dark .contact-social li a:hover {
+  background-color: #1e2530;
+}
+
+.dark .list-item a {
+  color: #ffffff;
+}
+
+.dark .list-item a:hover {
+  color: #0F3F8C;
+}
+
+.dark .card-title {
+  color: #ffffff;
+}
+
+.dark .list-group-item a {
+  color: #ffffff;
+}
+
+.dark .list-group-item a:hover {
+  color: #0F3F8C;
+}
+
+.dark .btn-primary {
+  background-color: #1e2530;
+}
+
+.dark .btn-primary:hover, .dark .btn-primary:focus, .dark .btn-primary:active, .dark .btn-primary:active:focus {
+  background-color: #0F3F8C;
+}
+
+.dark .page-title .title-bg {
+  color: rgba(70, 88, 124, 0.06);
+}
+
+.dark .switcher-body h4 {
+  color: #ffffff;
+}
+
+.dark .btn-border {
+  border-color: #1e2530;
+}
+
+.dark .contact-block {
+  background-color: #1e2530;
+}
+
+.dark .btn {
+  color: #ffffff;
+  background-color: #0c0f15;
+}
+
+.dark .btn:hover, .dark .btn:focus, .dark .btn:active:focus {
+  background-color: #0F3F8C;
+  color: #ffffff;
+}
+
+.dark .navbar {
+  background-color: #1e2530;
+}
+
+.dark .navbar a {
+  color: #ffffff;
+}
+
+.dark .navbar a:hover {
+  color: #0F3F8C;
+}
+
+.navbar-toggler-icon {
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+}
+
+.bar {
+  display: block;
+  width: 100%;
+  height: 0.2rem;
+  background-color: #000; /* change color to suit your design */
+  margin: 0.3rem 0;
+}
+
+@media (max-width: 576px) {
+  .card {
+    padding: 10px;
+  }
+}
 
