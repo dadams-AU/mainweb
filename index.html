@@ -17,17 +17,19 @@
 		</style>
 	
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="darkmode.js"></script>
+
 </head>
 <body>
-  <header class="site-wrapper">    
+<header class="site-wrapper">    
 	  <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand" href="#"><img src="images/dadams.png" width="120"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav me-auto">
           <li class="nav-item active">
             <a class="nav-link" href="index.html" title="Home">Home <span class="sr-only">(current)</span></a>
           </li>
@@ -38,22 +40,31 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="More options">
               Dropdown
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="welcome.html" title="Welcome">Welcome</a>
               <a class="dropdown-item" href="about.html" title="About">About</a>
               <a class="dropdown-item" href="resume.html" title="C.V.">C.V.</a>
               <a class="dropdown-item" href="courses.html" title="Courses">Courses</a>
               <a class="dropdown-item" href="works.html" title="Research">Research</a>
-              <a class="dropdown-item" href="service.html" title="Service">Service</a>
+				  <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="mpa.html" title="MPA Program">MPA Program</a>
+			  <a class="dropdown-item" href="psa.html" title="Pi Sigma Alpha">Pi Sigma Alpha</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="contact.html" title="Contact">Contact</a>
             </div>
           </li>
-        </ul>
+       </ul>
+			   <div class="theme-switch-wrapper">
+		  <label class="theme-switch" for="themeSwitch">
+			<input type="checkbox" id="themeSwitch">
+			<div class="theme-slider round"></div>
+		  </label>
+		</div>
+
       </div>
 	  </nav>
  <hr>
-  </header>
+</header>
  
 	 <main class="content-wrapper">
     <section>
@@ -170,6 +181,8 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap-4.4.1.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/darkmode.js"></script>
 </body>
 </html>
 	 	 
