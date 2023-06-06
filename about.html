@@ -68,45 +68,49 @@
     </div>
 	 </section>
  
-	 <section class="content-wrapper">
+	<section class="content-wrapper">
     <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-sm-12 text-center">
+        <div class="row d-flex align-items-stretch">
+            <div class="col-md-3 col-sm-12 text-center d-flex align-items-center justify-content-center">
                 <figure class="thumbnail thumbnail-3d">
                     <img src="images/dandr.png" alt="" class="img-fluid mx-auto">
                 </figure>
             </div>
-            <div class="col-md-4 col-sm-12 text-center">
+            <div class="col-md-3 col-sm-12 text-center d-flex align-items-center justify-content-center">
                 <figure class="thumbnail thumbnail-3d">
                     <img src="images/v.png" alt="" class="img-fluid mx-auto">
                 </figure>
             </div>
-            <div class="col-md-4 col-sm-12">
-                <div class="contact-block contact-block-3d">
-                    <div class="author-desc">
+            <div class="col-md-3 col-sm-12 d-flex align-items-center justify-content-center">
+                <div class="text-content contact-block-3d">
+                    <div class="text-content">
                         <p><b>Name:</b> David P. Adams, Ph.D.</p>
                         <p><b>Work Phone:</b> 657-278-4770</p>
-                        <p><b>Email:</b> <a href="mailto:dpadams@fullerton.edu" style="font-family: monospace; text-transform: lowercase;" class="link">dpadams@fullerton.edu</a></p>
-                        <p><b>Appointments:</b> <a href="https://t.ly/dpa-appt" style="font-family: monospace; text-transform: lowercase;" class="link">t.ly/dpa-appt</a></p>
                     </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12 d-flex align-items-center justify-content-center">
+                <div class="text-content">
+                    <p><b>Email:</b> <a href="mailto:dpadams@fullerton.edu" style="font-family: monospace; text-transform: lowercase;" class="link">dpadams@fullerton.edu</a></p>
+                    <p><b>Appointments:</b>  <a href="https://t.ly/dpa-appt" style="font-family: monospace; text-transform: lowercase;" class="link">t.ly/dpa-appt</a></p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section class="container bg-light">
-    <p>
-        I teach because I like it. The students are eager, full of ideas. We learn together. Public policy is complex, fascinating. Public administration is a crucial discipline. Collaborative governance is an evolving field. My research lies at the intersection of these areas — where public policy crosses paths with networks of actors and community involvement. Water policy is my focus. I study the outcomes of working together, of shared governance. It's real. It's important. It shapes our world.
-    </p>
+<section>
+	<div class="card">
+            <div class="card-body">
+                <h3 class="card-title">More About Me</h3>
+    <p>I teach because I like it. The students are eager, full of ideas. We learn together. Public policy is complex, fascinating. Public administration is a crucial discipline. Collaborative governance is an evolving field. My research lies at the intersection of these areas — where public policy crosses paths with networks of actors and community involvement. Water policy is my focus. I study the outcomes of working together, of shared governance. It's real. It's important. It shapes our world. </p>
 
-    <p>
-        Family is more important than work. My children and pets, they mean the world to me. We share time. Indoors, outdoors, it doesn't matter. What matters is being together. Volunteering matters, too. Helping organizations, student clubs, it's a good thing. Gives purpose, builds community.
-    </p>
+    <p>Family is more important than work. My children and pets, they mean the world to me. We share time. Indoors, outdoors, it doesn't matter. What matters is being together. Volunteering matters, too. Helping organizations, student clubs, it's a good thing. Gives purpose, builds community. </p>
 
-    <p>
-        I like Southern California. It's a melting pot, full of diversity. People, landscapes, foods — there's richness everywhere. It's different from where I spent most of my life, and I've grown to love it. But there's something about home that never leaves you. The food, I cook it. The people, the authors, they're part of me. I like to read their stories. <a class="primary" href="https://bittersoutherner.com/">The Bitter Southerner</a>, that's where you'll find those stories. Stories of the South.
-    </p> 
+    <p> I like Southern California. It's a melting pot, full of diversity. People, landscapes, foods — there's richness everywhere. It's different from where I spent most of my life, and I've grown to love it. But there's something about home that never leaves you. The food, I cook it. The people, the authors, they're part of me. I like to read their stories. <a class="primary" href="https://bittersoutherner.com/">The Bitter Southerner</a>, that's where you'll find those stories. Stories of the South.</p> 
+	 </div> 
+	</div>
+	</div>
 </section>
 
 	
@@ -134,6 +138,14 @@
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap-4.4.1.js"></script>
 <script src="js/darkmode.js"></script>
+	<script>
+  // Function to toggle dark mode
+  function toggleDarkMode() {
+    $('body').toggleClass('dark');
+    $('.container.bg-light').toggleClass('dark-bg-light');
+  }
+</script>
+
 </body>
 </html>
 

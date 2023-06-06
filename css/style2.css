@@ -405,6 +405,17 @@ body.dark {
   color: #ffffff;
 }
 
+.container.bg-light {
+  background-color: #ffffff; /* Set the background color to white */
+  color: #000000; /* Set the text color to black */
+}
+
+body.dark .container.bg-light {
+  background-color: #1e2530; /* Set the background color to a dark color */
+  color: #ffffff; /* Set the text color to white */
+}
+
+
 body.dark a {
   color: #ffffff;
 }
@@ -466,10 +477,6 @@ body.dark .card {
   text-decoration: underline;
 }
 
-
-body.dark .container p {
-  color: #ffffff;
-}
 body.dark .card-title,
 body.dark .card-text {
   color: #fff;
@@ -508,3 +515,15 @@ body.dark .jumbotron {
 .image-3d:hover {
   transform: scale(1.05) rotateX(5deg) rotateY(5deg);
 }
+
+.thumbnail-3d,
+.contact-block-3d {
+    float: left;
+    margin-right: 20px;
+}
+
+.text-content {
+    float: none;
+}
+
+
