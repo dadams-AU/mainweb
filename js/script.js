@@ -131,5 +131,6 @@
 			$(".preloader").addClass("done");
 		}, 1000);
 	});
+	
 
 })(jQuery);
