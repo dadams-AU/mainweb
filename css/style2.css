@@ -126,6 +126,10 @@ a:hover, a:focus {
   color: #0F3F8C;
 }
 
+.submit {
+	color: #0F3F8C;
+}
+
 .secondary {
   color: #416F14;
 }
@@ -564,18 +568,26 @@ select {
   border-radius: 4px;
 }
 
-/* Style for the submit button */
-button[type="submit"] {
-  display: block;
-  width: 100%;
-  padding: 0px;
-  background-color: #0F3F8C;
-  border: none;
-  border-radius: 4px;
-  color: #fff;
-  font-size: 16px;
-  cursor: pointer;
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
+
+.button-wrapper button {
+  width: 200px;
+  margin: 5px;
+}
+
+@media (max-width: 767px) {
+  .button-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 
 /* Responsive styles */
 @media screen and (max-width: 767px) {
