@@ -596,3 +596,8 @@ select {
   }
 }
 
+/* Dark mode styles */
+.dark-mode .form-group label {
+  color: #fff; /* Set the desired text color for dark mode */
+}
+
