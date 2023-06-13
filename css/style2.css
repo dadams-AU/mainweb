@@ -601,3 +601,10 @@ select {
   color: #fff; /* Set the desired text color for dark mode */
 }
 
+.dark-mode .form-page input,
+.dark-mode .form-page select,
+.dark-mode .form-page textarea {
+  background-color: #222;
+  color: #fff;
+}
+
