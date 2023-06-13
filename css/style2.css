@@ -507,3 +507,39 @@ body.dark .secondary {
   color: #416F14 !important;
 }
 
+.form-wrapper {
+      width: 80%;
+      margin: auto;
+      padding: 20px;
+      background: #f7f7f7;
+      box-shadow: 0px 0px 10px #ccc;
+      border-radius: 10px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-top: 10px;
+    }
+
+    input, select, button {
+      margin-top: 5px;
+    }
+
+button {
+      margin-top: 20px;
+      padding: 10px;
+      background: #0F3F8C;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:disabled {
+      background: #ccc;
+      cursor: not-allowed;
+    }
