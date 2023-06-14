@@ -1,3 +1,4 @@
+/* Body styles */
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -5,33 +6,20 @@ body {
   line-height: 30px;
   color: #080808;
   padding-top: 10px;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-body {
-  display: flex !important;
-  min-height: 100vh !important;
-  flex-direction: column !important;
+/* Dark mode styles */
+body.dark {
+  background-color: #0c0f15;
+  color: #ffffff;
 }
 
-body {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-.dark .card-title,
-.dark .card-text {
-  color: #fff;
-}
-
-
-body > footer {
-  margin-top: auto !important;
-	 color: #ababab;
-}
-
-
-
-
+/* Common styles for light and dark themes */
 .logo {
   max-width: 100%;
   height: auto;
@@ -42,7 +30,8 @@ a {
   transition: all 0.3s ease 0s;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #ababab;
   text-decoration: none;
   outline: 0 none;
@@ -57,18 +46,23 @@ a:hover, a:focus {
   padding: 0 42px;
 }
 
-.btn:hover, .btn:focus, .btn:active:focus {
+.btn:hover,
+.btn:focus,
+.btn:active:focus {
   outline: 0 none;
 }
 
 .btn-primary {
-  background-color: #416F14;
+  background-color: #416f14;
   border: 0;
   height: 48px;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary:active:focus {
-  background-color: #416F14;
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:active:focus {
+  background-color: #416f14;
 }
 
 .btn-border {
@@ -76,17 +70,18 @@ a:hover, a:focus {
   padding: 7px;
 }
 
-/* Combined common properties for .page-title and .section-title into one class */
 .title {
   overflow: hidden;
   margin-bottom: 20px;
 }
 
-.title h2, .title h3 {
+.title h2,
+.title h3 {
   position: relative;
 }
 
-.title h3::before, .title h3::after {
+.title h3::before,
+.title h3::after {
   content: "";
   height: 2px;
   position: absolute;
@@ -101,7 +96,6 @@ a:hover, a:focus {
   background-color: #fff;
 }
 
-/* Moved common properties for .research-item and .service-item into one class */
 .list-item {
   border-bottom: 1px solid #ddd;
   padding: 10px 0;
@@ -113,25 +107,24 @@ a:hover, a:focus {
 
 .list-item a {
   text-decoration: none;
-  color: #416F14;
+  color: #416f14;
   font-weight: 600;
 }
 
 .list-item a:hover {
-  color: #0F3F8C;
+  color: #0f3f8c;
 }
 
-/* Other styles */
 .primary {
-  color: #0F3F8C;
+  color: #0f3f8c;
 }
 
 .submit {
-	color: #0F3F8C;
+  color: #0f3f8c;
 }
 
 .secondary {
-  color: #416F14;
+  color: #416f14;
 }
 
 .media img {
@@ -143,7 +136,8 @@ a:hover, a:focus {
   margin-bottom: 20px;
 }
 
-.clear:before, .clear:after {
+.clear:before,
+.clear:after {
   content: " ";
   display: table;
 }
@@ -165,7 +159,7 @@ a:hover, a:focus {
 }
 
 .site-wrapper {
-  border-top: 4px solid #0F3F8C;
+  border-top: 4px solid #0f3f8c;
 }
 
 .page-close {
@@ -241,7 +235,8 @@ a:hover, a:focus {
   margin-right: 0;
 }
 
-.research-list, .service-list {
+.research-list,
+.service-list {
   padding: 0;
 }
 
@@ -273,6 +268,7 @@ a:hover, a:focus {
 .contact-social li a:hover {
   background-color: #ccc;
 }
+
 .contact-form {
   max-width: 500px;
   margin: 0 auto;
@@ -288,62 +284,57 @@ a:hover, a:focus {
   width: 100%;
 }
 
-.btn {
-  margin-top: 10px;
-}
-
 h4 {
   text-align: center;
 }
 
-
-body {
-    background-color: #f8f9fa;
-}
-
+/* Card styles */
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .card-body {
-    padding: 2px 16px;
+  padding: 2px 16px;
 }
 
 .card-title {
-    color: #416F14;
+  color: #416f14;
 }
 
 .list-group-item {
-    border: none;
-    padding: 10px 0;
+  border: none;
+  padding: 10px 0;
 }
 
 .list-group-item a {
-    color: #0F3F8C;
-    text-decoration: none;
+  color: #0f3f8c;
+  text-decoration: none;
 }
 
 .list-group-item a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .card-img-top {
-    width: 100%;
-    height: 15vw;
-    object-fit: cover;
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
 }
+
+/* Theme switch styles */
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0.5em;
 }
+
 .theme-switch {
   position: relative;
   display: inline-block;
@@ -351,7 +342,7 @@ body {
   height: 34px;
 }
 
-.theme-switch input { 
+.theme-switch input {
   opacity: 0;
   width: 0;
   height: 0;
@@ -365,7 +356,6 @@ body {
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
   transition: .4s;
 }
 
@@ -377,21 +367,18 @@ body {
   left: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: .4s;
   transition: .4s;
 }
 
 .theme-switch input:checked + .theme-slider {
-  background-color: #2196F3;
+  background-color: #2196f3;
 }
 
 .theme-switch input:focus + .theme-slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #2196f3;
 }
 
 .theme-switch input:checked + .theme-slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
   transform: translateX(26px);
 }
 
@@ -404,21 +391,21 @@ body {
   border-radius: 50%;
 }
 
+/* Dark mode specific styles */
 body.dark {
   background-color: #0c0f15;
   color: #ffffff;
 }
 
 .container.bg-light {
-  background-color: #ffffff; /* Set the background color to white */
-  color: #000000; /* Set the text color to black */
+  background-color: #ffffff;
+  color: #000000;
 }
 
 body.dark .container.bg-light {
-  background-color: #1e2530; /* Set the background color to a dark color */
-  color: #ffffff; /* Set the text color to white */
+  background-color: #1e2530;
+  color: #ffffff;
 }
-
 
 body.dark a {
   color: #ffffff;
@@ -427,13 +414,13 @@ body.dark a {
 body.dark .navbar {
   background-color: #1e2530;
 }
+
 body.dark .navbar a {
-  color: #0F3F8C;
+  color: #0f3f8c;
 }
 
-
 body.dark .navbar a:hover {
-  color: #0F3F8C;
+  color: #0f3f8c;
 }
 
 body.dark .navbar-light .navbar-nav .nav-link,
@@ -449,8 +436,7 @@ body.dark .navbar-light .navbar-nav .dropdown-menu a.dropdown-item {
   color: #000 !important;
 }
 
-
-.dark .card-body {
+body.dark .card-body {
   background-color: #1e2530;
   border: 1px solid #ffffff;
   border-radius: 8px;
@@ -458,16 +444,15 @@ body.dark .navbar-light .navbar-nav .dropdown-menu a.dropdown-item {
   padding: 20px;
 }
 
-
 body.dark .jumbotron {
-  background-color: #1e2530; /* replace with the dark color you want */
+  background-color: #1e2530;
 }
 
 .navbar-toggler-icon .bar {
   display: block;
   width: 100%;
   height: 0.2rem;
-  background-color: #000; /* change color to suit your design */
+  background-color: #000;
   margin: 0.3rem 0;
 }
 
@@ -489,12 +474,12 @@ body.dark .jumbotron {
 
 .thumbnail-3d,
 .contact-block-3d {
-    float: left;
-    margin-right: 20px;
+  float: left;
+  margin-right: 20px;
 }
 
 .text-content {
-    float: none;
+  float: none;
 }
 
 @media (max-width: 768px) {
@@ -504,68 +489,36 @@ body.dark .jumbotron {
 }
 
 .secondary {
-  color: #416F14 !important;
+  color: #416f14 !important;
 }
 
 body.dark .secondary {
-  color: #416F14 !important;
+  color: #416f14 !important;
 }
 
+/* Form styles */
 .form-wrapper {
-      width: 80%;
-      margin: auto;
-      padding: 20px;
-      background: #f7f7f7;
-      box-shadow: 0px 0px 10px #ccc;
-      border-radius: 10px;
-    }
-
-    form {
-      display: flex;
-      flex-direction: column;
-    }
-
-    label {
-      margin-top: 10px;
-    }
-
-    input, select, button {
-      margin-top: 5px;
-    }
-
-/* Add this CSS code to your existing CSS file or create a new one */
-
-/* Style for the form wrapper */
-.form-wrapper {
-  max-width: 600px;
-  margin: 0 auto;
+  width: 80%;
+  margin: auto;
   padding: 20px;
-  background-color: #f8f8f8;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #f7f7f7;
+  box-shadow: 0px 0px 10px #ccc;
+  border-radius: 10px;
 }
 
-/* Style for form fields and labels */
-.form-group {
-  margin-bottom: 20px;
+form {
+  display: flex;
+  flex-direction: column;
 }
 
 label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
+  margin-top: 10px;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="number"],
-input[type="date"],
-textarea,
-select {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+input,
+select,
+button {
+  margin-top: 5px;
 }
 
 .button-wrapper {
@@ -588,7 +541,6 @@ select {
   }
 }
 
-
 /* Responsive styles */
 @media screen and (max-width: 767px) {
   .form-wrapper {
@@ -598,7 +550,7 @@ select {
 
 /* Dark mode styles */
 .dark-mode .form-group label {
-  color: #fff; /* Set the desired text color for dark mode */
+  color: #fff;
 }
 
 .dark-mode .form-page input,
@@ -607,4 +559,15 @@ select {
   background-color: #222;
   color: #fff;
 }
+
+.dark .darkable {
+  color: #ffffff;
+  background-color: #1e2530;
+}
+
+body.dark .darkable {
+    background-color: #333; /* Dark Background */
+    color: #FFF; /* Light Text */
+}
+
 
