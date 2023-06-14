@@ -37,6 +37,10 @@ a:focus {
   outline: 0 none;
 }
 
+.jumbotron {
+    margin-top: 0 !important;
+}
+
 .btn {
   transition: all 0.3s ease 0s;
   font-family: "Open Sans", sans-serif;
@@ -566,7 +570,7 @@ button {
 }
 
 body.dark .darkable {
-    background-color: #333; /* Dark Background */
+    background-color: #1e2530; /* Dark Background */
     color: #FFF; /* Light Text */
 }
 
