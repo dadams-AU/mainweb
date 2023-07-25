@@ -168,8 +168,7 @@
                     <label for="message">Message</label>
                     <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
                 </div>
-                <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
-                <button type="submit" class="btn btn-primary">Send Message</button>
+				<button onClick="handleFormSubmit(event)" class="btn btn-primary m-2">Send Message</button>
             </form>
         </div>
     </div>
@@ -197,7 +196,7 @@
 <script src="js/darkmode.js"></script>
 	<script>
   grecaptcha.ready(function() {
-    grecaptcha.execute("6LfxIA0mAAAAAFWWyqiOpo9JybP41OJnCNOTdpBf", {action: "submit"}).then(function(token) {
+    grecaptcha.execute('YOUR_RECAPTCHA_SITE_KEY', {action: 'submit'}).then(function(token) {
       // Add the token to the form:
       var form = document.getElementById('my-form');
       var input = document.createElement('input');
