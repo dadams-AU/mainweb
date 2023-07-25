@@ -17,15 +17,6 @@
 		</style>
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	
-	 <!-- The reCAPTCHA scripts -->
-    <script src="https://www.google.com/recaptcha/api.js?render=6LfxIA0mAAAAAFWWyqiOpo9JybP41OJnCNOTdpBf"></script>
-    <script>
-      grecaptcha.ready(function () {
-        grecaptcha.execute('6LfxIA0mAAAAAFWWyqiOpo9JybP41OJnCNOTdpBf', {action: 'submit'}).then(function (token) {
-          document.getElementById('g-recaptcha-response').value = token;
-        });
-      });
-    </script>
 
 </head>
 <body>
@@ -174,9 +165,6 @@
     </div>
 </section>
 
-
-
-
      <hr>
   </main>
   <footer class="text-center mt-3">
@@ -194,22 +182,29 @@
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap-4.4.1.js"></script>
 <script src="js/darkmode.js"></script>
-	<script>
-  grecaptcha.ready(function() {
-    grecaptcha.execute('YOUR_RECAPTCHA_SITE_KEY', {action: 'submit'}).then(function(token) {
-      // Add the token to the form:
-      var form = document.getElementById('my-form');
-      var input = document.createElement('input');
-      input.type = 'hidden';
-      input.name = 'g-recaptcha-response';
-      input.value = token;
-      form.appendChild(input);
-
-      // Submit the form:
-      form.submit();
+	<!-- The reCAPTCHA scripts -->
+<script src="https://www.google.com/recaptcha/api.js?render=6LfxIA0mAAAAAFWWyqiOpo9JybP41OJnCNOTdpBf"></script>
+<script>
+  function handleFormSubmit(event) {
+    event.preventDefault();
+    
+    grecaptcha.ready(function() {
+      grecaptcha.execute("6LfxIA0mAAAAAFWWyqiOpo9JybP41OJnCNOTdpBf", {action: "submit"}).then(function(token) {
+        // Add the token to the form:
+        var form = document.getElementById('contact-form');
+        var input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = 'g-recaptcha-response';
+        input.value = token;
+        form.appendChild(input);
+  
+        // Submit the form:
+        form.submit();
+      });
     });
-  });
+  }
 </script>
+
 
 </body>
 </html>
