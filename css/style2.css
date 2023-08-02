@@ -57,7 +57,7 @@ a:focus {
 }
 
 .btn-primary {
-  background-color: #416f14;
+  background-color: #8FBCBB;
   border: 0;
   height: 48px;
 }
@@ -66,7 +66,7 @@ a:focus {
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary:active:focus {
-  background-color: #416f14;
+  background-color: #8FBCBB;
 }
 
 .btn-border {
@@ -111,24 +111,24 @@ a:focus {
 
 .list-item a {
   text-decoration: none;
-  color: #416f14;
+  color: #8FBCBB;
   font-weight: 600;
 }
 
 .list-item a:hover {
-  color: #0f3f8c;
+  color: #5E81AC;
 }
 
 .primary {
-  color: #0f3f8c;
+  color: #5E81AC;
 }
 
 .submit {
-  color: #0f3f8c;
+  color: #5E81AC;
 }
 
 .secondary {
-  color: #416f14;
+  color: #8FBCBB;
 }
 
 .media img {
@@ -163,7 +163,7 @@ a:focus {
 }
 
 .site-wrapper {
-  border-top: 4px solid #0f3f8c;
+  border-top: 4px solid #5E81AC;
 }
 
 .page-close {
@@ -308,7 +308,7 @@ h4 {
 }
 
 .card-title {
-  color: #416f14;
+  color: #8FBCBB;
 }
 
 .list-group-item {
@@ -317,7 +317,7 @@ h4 {
 }
 
 .list-group-item a {
-  color: #0f3f8c;
+  color: #5E81AC;
   text-decoration: none;
 }
 
@@ -397,7 +397,7 @@ h4 {
 
 /* Dark mode specific styles */
 body.dark {
-  background-color: #0c0f15;
+  background-color: #2E3440;
   color: #ffffff;
 }
 
@@ -407,7 +407,7 @@ body.dark {
 }
 
 body.dark .container.bg-light {
-  background-color: #1e2530;
+  background-color: #434C5E;
   color: #ffffff;
 }
 
@@ -416,24 +416,24 @@ body.dark a {
 }
 
 body.dark .navbar {
-  background-color: #1e2530;
+  background-color: #434C5E;
 }
 
 body.dark .navbar a {
-  color: #0f3f8c;
+  color: #434C5E;
 }
 
 body.dark .navbar a:hover {
-  color: #0f3f8c;
+  color: #5E81AC;
 }
 
 body.dark .navbar-light .navbar-nav .nav-link,
 body.dark .navbar-light .navbar-nav .nav-link:hover {
-  color: #0c0f15 !important;
+  color: #3B4252 !important;
 }
 
 body.dark .navbar-light .navbar-nav .dropdown-menu {
-  background-color: #0c0f15;
+  background-color: #3B4252;
 }
 
 body.dark .navbar-light .navbar-nav .dropdown-menu a.dropdown-item {
@@ -441,7 +441,7 @@ body.dark .navbar-light .navbar-nav .dropdown-menu a.dropdown-item {
 }
 
 body.dark .card-body {
-  background-color: #1e2530;
+  background-color: #3B4252;
   border: 1px solid #ffffff;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
@@ -449,7 +449,7 @@ body.dark .card-body {
 }
 
 body.dark .jumbotron {
-  background-color: #1e2530;
+  background-color: #3B4252;
 }
 
 .navbar-toggler-icon .bar {
@@ -493,11 +493,11 @@ body.dark .jumbotron {
 }
 
 .secondary {
-  color: #416f14 !important;
+  color: #8FBCBB !important;
 }
 
 body.dark .secondary {
-  color: #416f14 !important;
+  color: #8FBCBB !important;
 }
 
 /* Form styles */
