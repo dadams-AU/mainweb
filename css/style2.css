@@ -261,9 +261,9 @@ a:focus {
   margin-right: 5px;
 }
 
-.contact-social li a {
+.contact-social a {
   font-size: 18px;
-  color: #000;
+  color: #5E81AC;
   background-color: #ECEFF4;
   border-radius: 5px;
   padding: 10px 20px;
@@ -452,7 +452,21 @@ body.dark .jumbotron {
   background-color: #3B4252;
 }
 
-.navbar-toggler-icon .bar {
+
+
+.contact-social.dark a {
+  font-size: 18px;
+  color: #3B4252;
+  background-color: #8FBCBB;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.contact-social.dark a:hover {
+  background-color: #5E81AC;
+}
+
+.navbar-toggler-icon.bar {
   display: block;
   width: 100%;
   height: 0.2rem;
