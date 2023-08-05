@@ -522,6 +522,11 @@ body.dark .secondary {
   color: var(--nord7) !important;
 }
 
+body.dark .primary {
+  color: var(--nord9) !important;
+}
+
+
 /* Form styles */
 .form-wrapper {
   width: 80%;
