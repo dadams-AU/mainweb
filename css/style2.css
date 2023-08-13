@@ -127,7 +127,7 @@ a:focus {
 }
 
 .primary {
-  color: var(--nord9);
+  color: var(--nord10);
 }
 
 .submit {
@@ -685,3 +685,13 @@ body.dark .darkable {
 .dark-mode .river-scene::before {
   background: rgba(0, 0, 0, 0.5); /* Darker overlay for dark mode */
 }
+
+.social-icons .fab, .social-icons .fas {
+  color: var(--nord8)/* or any color you want */
+}
+
+.monospace {
+  font-family: 'Courier New', monospace;
+}
+
+
