@@ -50,7 +50,7 @@ a:focus {
 
 .btn {
   transition: all 0.3s ease 0s;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   line-height: 50px;
   text-transform: uppercase;
@@ -64,6 +64,7 @@ a:focus {
 }
 
 .btn-primary {
+  width: 200px;
   background-color: var(--nord9);
   border: 0;
   height: 48px;
@@ -74,6 +75,19 @@ a:focus {
 .btn-primary:active,
 .btn-primary:active:focus {
   background-color: var(--nord8);
+}
+
+.btn-submit {
+  background-color: var(--nord14);
+  border: 0;
+  height: 48px;
+}
+
+.btn-submit:hover,
+.btn-submit:focus,
+.btn-submit:active,
+.btn-submit:active:focus {
+  background-color: var(--nord7);
 }
 
 .btn-border {
