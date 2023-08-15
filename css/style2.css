@@ -54,7 +54,7 @@ a:focus {
   font-weight: 700;
   line-height: 50px;
   text-transform: uppercase;
-  padding: 0 42px;
+  padding: 0 42px; /* This can be adjusted if needed, or removed if it's causing spacing issues */
 }
 
 .btn:hover,
@@ -64,7 +64,6 @@ a:focus {
 }
 
 .btn-primary {
-  width: 200px;
   background-color: var(--nord9);
   border: 0;
   height: 48px;
@@ -75,6 +74,41 @@ a:focus {
 .btn-primary:active,
 .btn-primary:active:focus {
   background-color: var(--nord8);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+  .btn-primary {
+    width: 100%;  /* Let the button take the full width on very small screens */
+    margin-bottom: 10px; /* Adds space between stacked buttons */
+  }
+}
+
+.btn-outline-secondary {
+  color: var(--nord8);  /* This should be your desired text color */
+  border-color: var(--nord8);  /* The border color */
+  background-color: transparent;
+  transition: all 0.3s ease 0s;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus,
+.btn-outline-secondary:active,
+.btn-outline-secondary:active:focus {
+  background-color: var(--nord8);  /* The hover background color */
+  color: #ffffff;  /* The hover text color */
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+  .btn-outline-secondary {
+    width: 100%;  /* Let the button take the full width on very small screens */
+    margin-bottom: 10px; /* Adds space between stacked buttons */
+  }
 }
 
 .btn-submit {
@@ -708,4 +742,11 @@ body.dark .darkable {
   font-family: 'Courier New', monospace;
 }
 
+/* For devices with a max width of 576px (Bootstrap's breakpoint for extra small devices) */
+@media (max-width: 576px) {
+  h1.display-5 {
+      font-size: 24px;  /* Adjust this value based on your needs */
+      letter-spacing: -0.5px;  /* Adjust as needed */
+  }
+}
 
