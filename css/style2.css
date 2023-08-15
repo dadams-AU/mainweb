@@ -51,61 +51,57 @@ a:focus {
 .btn {
   transition: all 0.3s ease 0s;
   font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
-  line-height: 50px;
   text-transform: uppercase;
-  padding: 0 42px; /* This can be adjusted if needed, or removed if it's causing spacing issues */
-}
+  }
 
-.btn:hover,
-.btn:focus,
-.btn:active:focus {
-  outline: 0 none;
-}
 
-.btn-primary {
-  background-color: var(--nord9);
-  border: 0;
-  height: 48px;
+.btn-outline-secondary {
+  color: var(--nord8);  /* This should be your desired text color */
+  border: 1px solid var(--nord8);  /* This should be your desired border color */
+  border-color: var(--nord8);  /* The border color */
+  background-color: transparent;
+  transition: all 0.3s ease 0s;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+ }
+
+ .btn-primary {
+  background-color: var(--nord10);  /* Replace with your desired color or variable */
+  border-color: var(--nord9);  /* Replace with your desired border color or variable */
+  color: var(--nord4);  /* Replace with your desired text color or variable */
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary:active:focus {
-  background-color: var(--nord8);
+  background-color: var(--nord9);  /* Replace with your desired hover background color or variable */
+  border-color: var(--nord10);  /* Replace with your desired hover border color or variable */
+  color: var(--nord4);  /* Replace with your desired hover text color or variable */
 }
 
-/* Responsive Adjustments */
-@media (max-width: 576px) {
-  .btn-primary {
-    width: 100%;  /* Let the button take the full width on very small screens */
-    margin-bottom: 10px; /* Adds space between stacked buttons */
-  }
-}
 
-.btn-outline-secondary {
-  color: var(--nord8);  /* This should be your desired text color */
-  border-color: var(--nord8);  /* The border color */
-  background-color: transparent;
-  transition: all 0.3s ease 0s;
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
-  line-height: 50px;
-  text-transform: uppercase;
-}
 
 .btn-outline-secondary:hover,
 .btn-outline-secondary:focus,
 .btn-outline-secondary:active,
 .btn-outline-secondary:active:focus {
-  background-color: var(--nord8);  /* The hover background color */
+  background-color: var(--nord9);  /* The hover background color */
   color: #ffffff;  /* The hover text color */
+ 
 }
 
 /* Responsive Adjustments */
 @media (max-width: 576px) {
   .btn-outline-secondary {
+    width: 100%;  /* Let the button take the full width on very small screens */
+    margin-bottom: 10px; /* Adds space between stacked buttons */
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 576px) {
+  .btn-primary {
     width: 100%;  /* Let the button take the full width on very small screens */
     margin-bottom: 10px; /* Adds space between stacked buttons */
   }
@@ -124,10 +120,6 @@ a:focus {
   background-color: var(--nord7);
 }
 
-.btn-border {
-  border: 1px solid var(--nord6);
-  padding: 7px;
-}
 
 .title {
   overflow: hidden;
@@ -191,9 +183,6 @@ a:focus {
   height: 35px;
 }
 
-.btn-space {
-  margin-bottom: 20px;
-}
 
 .clear:before,
 .clear:after {
@@ -508,7 +497,6 @@ body.dark .jumbotron {
 }
 
 
-
 .contact-social.dark a {
   font-size: 18px;
   color: var(--nord1);
@@ -600,18 +588,8 @@ button {
   margin-top: 5px;
 }
 
-.button-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 20px;
-}
 
-.button-wrapper button {
-  width: 200px;
-  margin: 5px;
-}
+
 
 @media (max-width: 767px) {
   .button-wrapper {
@@ -649,90 +627,7 @@ body.dark .darkable {
     color: var(--nord6); /* Light Text */
 }
 
-  .watermark {
-    position: fixed;
-    top: 45%;
-    left: 45%;
-    font-size: 3em;
-    color: #aaa;
-    transform: rotate(-45deg);
-    opacity: 0.4;
-    z-index: 9999;
-    pointer-events: none; /* Makes the watermark not interfere with clicks */
-  }
 
-
-  .river {
-    width: 100%;
-    height: 200px;
-    background: #b0e0e6;
-    overflow: hidden;
-    position: relative;
-}
-
-.water {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, #1E90FF 0%, #00BFFF 100%);
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: flow 5s linear infinite;
-}
-
-.ripple {
-    width: 150px;
-    height: 150px;
-    border-radius: 75px;
-    background: rgba(255, 255, 255, 0.2);
-    position: absolute;
-    top: 50%;
-    left: -75px;
-    transform: translateY(-50%);
-    animation: ripple 2s linear infinite;
-}
-
-.ripple:nth-child(2) { animation-delay: 0.5s; }
-.ripple:nth-child(3) { animation-delay: 1s; }
-
-@keyframes flow {
-    0% { background-position: 0 0; }
-    100% { background-position: 0 100px; }
-}
-
-@keyframes ripple {
-    0% { left: -75px; }
-    100% { left: 100%; }
-}
-
-
-/* Common styles for both light and dark modes */
-.river-scene {
-  background: url('/images/watershed1.jpg') no-repeat center center;
-  background-size: cover;
-  position: relative;
-}
-
-/* Dark overlay to ensure readability */
-.river-scene::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.3); /* Adjust opacity as needed */
-}
-
-/* Specific styles for light mode */
-.light-mode .river-scene::before {
-  background: rgba(255, 255, 255, 0.2); /* Slightly lighter overlay for light mode */
-}
-
-/* Specific styles for dark mode */
-.dark-mode .river-scene::before {
-  background: rgba(0, 0, 0, 0.5); /* Darker overlay for dark mode */
-}
 
 .social-icons .fab, .social-icons .fas {
   color: var(--nord8)/* or any color you want */
