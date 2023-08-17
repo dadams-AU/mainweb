@@ -18,11 +18,12 @@
 	
 	<style>
 	body {
-  font-family: 'Roboto', sans-serif; /* Apply a modern font */
+  font-family: 'Ubuntu', sans-serif; /* Apply a modern font */
   color: #333; /* Darker text color for better readability */
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
+  text-align: left;
   color: #1a4b91; /* Navy blue color for headings */
 }
 
@@ -121,13 +122,13 @@ blockquote {
  <main class="content-wrapper">
 
   <div class="px-4 py-5 my-5 text-center">
-       <h1 class="display-5 fw-bold text-body-emphasis">Capstone: Public Administration Theory</h1>
+       <h1 class="display-5 fw-bold text-body-emphasis text-center">Capstone: Public Administration Theory</h1>
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">POSC 521 | Fall 2023</p>
       <p><strong>Thursdays at 7:00 <span class="smallcaps">pm</span> in 302
         Gordon Hall</strong></p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <a class="btn btn-secondary btn-lg mx-2 mx-md-3 mb-2 mb-md-0" href="/syllabi/521_fa23.pdf" target="_blank">Syllabus.pdf</a>      
+        <button class="btn btn-primary" type="button" onclick="window.open('/syllabi/521_fa23.pdf', '_blank')">Syllabus.pdf</button>
       </div>
     </div>
   </div>
