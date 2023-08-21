@@ -4,7 +4,9 @@
 
 /* Body styles */
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #ECEFF4;
+  color: #3B4252;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -46,6 +48,11 @@ a:focus {
 
 .jumbotron {
     margin-top: 0 !important;
+    background-color: #D8DEE9; 
+}
+
+.my-4 {
+  color: var(--nord10);
 }
 
 .btn {
@@ -87,7 +94,7 @@ a:focus {
 .btn-outline-secondary:active,
 .btn-outline-secondary:active:focus {
   background-color: var(--nord9);  /* The hover background color */
-  color: #ffffff;  /* The hover text color */
+  color: #ECEFF4;  /* The hover text color */
  
 }
 
