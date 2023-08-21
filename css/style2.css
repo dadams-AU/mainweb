@@ -491,12 +491,19 @@ body.dark .navbar-light .navbar-nav .dropdown-menu a.dropdown-item {
   color: var(--nord0) !important;
 }
 
+
 body.dark .card-body {
   background-color: var(--nord2);
   border: 1px solid var(--nord6);
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
   padding: 20px;
+}
+
+body.dark .card {
+  background-color: var(--nord2); /* Darker background color for the cards to distinguish them from the container */
+  color: var(--nord4); /* Light gray color for the card's text */
+  border-color: var(--nord1); /* A border to make the card distinct */
 }
 
 body.dark .jumbotron {
@@ -652,3 +659,17 @@ body.dark .darkable {
   }
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column; 
+  height: 100%;
+}
+
+.card-body {
+  flex: 1; /* This will make the card body take up all available space, pushing any footer content to the bottom */
+}
