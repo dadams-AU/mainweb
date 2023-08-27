@@ -62,9 +62,9 @@ a:focus {
 
 
 .btn-outline-secondary {
-  color: var(--nord10);  
-  border: 1px solid var(--nord10);  
-  border-color: var(--nord10);  
+  color: #5578a3;  
+  border: 1px solid;  
+  border-color: var(--nord9); 
   background-color: transparent;
   transition: all 0.3s ease 0s;
   font-family: "Ubuntu", sans-serif;
