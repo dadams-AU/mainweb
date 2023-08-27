@@ -34,7 +34,7 @@ body.dark {
 }
 
 a {
-  color: inherit;
+  color:#3A5769;
   transition: all 0.3s ease 0s;
 }
 
@@ -72,7 +72,7 @@ a:focus {
  }
 
  .btn-primary {
-  background-color: #00050a;  
+  background-color: #007BFF;  
   border-color: var(--nord9);  
   color: var(--nord6);  
 }
@@ -172,7 +172,7 @@ a:focus {
 }
 
 .primary {
-  color: #5578a3);
+  color: #007BFF);
 }
 
 .submit {
@@ -364,7 +364,7 @@ h4 {
 }
 
 .card-title {
-  color: #5578a3;
+  color: #007BFF;
 }
 
 .list-group-item {
