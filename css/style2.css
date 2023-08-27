@@ -74,7 +74,7 @@ a:focus {
  .btn-primary {
   background-color: #0072ED;  
   border-color: var(--nord9);  
-  color: var(--nord6);  
+  color: #FEFEFF;  
 }
 
 .btn-primary:hover,
@@ -83,7 +83,7 @@ a:focus {
 .btn-primary:active:focus {
   background-color: var(--nord9);  
   border-color: var(--nord10);  
-  color: var(--nord4);  
+  color: #FEFEFF;  
 }
 
 
@@ -172,7 +172,7 @@ a:focus {
 }
 
 .primary {
-  color: #0072ED);
+  color: #0072ED;
 }
 
 .submit {
@@ -364,7 +364,7 @@ h4 {
 }
 
 .card-title {
-  color: #0072ED;
+  color: #093e77;
 }
 
 .list-group-item {
