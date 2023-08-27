@@ -5,12 +5,11 @@
 /* Body styles */
 body {
   font-family: 'Ubuntu', sans-serif;
-  background-color: #ECEFF4;
-  color: #3B4252;
+  background-color: var(nord6);
+  color: var(--nord0);
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-  color: var(--nord0);
   padding-top: 10px;
   display: flex;
   min-height: 100vh;
@@ -25,7 +24,7 @@ body {
 /* Dark mode styles */
 body.dark {
   background-color: var(--nord0);
-  color: var(--nord4);
+  color: var(--nord6);
 }
 
 /* Common styles for light and dark themes */
@@ -63,9 +62,9 @@ a:focus {
 
 
 .btn-outline-secondary {
-  color: var(--nord8);  /* This should be your desired text color */
-  border: 1px solid var(--nord8);  /* This should be your desired border color */
-  border-color: var(--nord8);  /* The border color */
+  color: var(--nord10);  /* This should be your desired text color */
+  border: 1px solid var(--nord10);  /* This should be your desired border color */
+  border-color: var(--nord10);  /* The border color */
   background-color: transparent;
   transition: all 0.3s ease 0s;
   font-family: "Ubuntu", sans-serif;
@@ -75,7 +74,7 @@ a:focus {
  .btn-primary {
   background-color: var(--nord10);  /* Replace with your desired color or variable */
   border-color: var(--nord9);  /* Replace with your desired border color or variable */
-  color: var(--nord4);  /* Replace with your desired text color or variable */
+  color: var(--nord6);  /* Replace with your desired text color or variable */
 }
 
 .btn-primary:hover,
@@ -339,6 +338,13 @@ a:focus {
   width: 100%;
 }
 
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
 h4 {
   text-align: center;
 }
@@ -359,7 +365,7 @@ h4 {
 }
 
 .card-title {
-  color: var(--nord7);
+  color: var(--nord10);
 }
 
 .list-group-item {
@@ -568,12 +574,13 @@ body.dark .jumbotron {
   color: var(--nord7) !important;
 }
 
+
 body.dark .secondary {
   color: var(--nord7) !important;
 }
 
 body.dark .primary {
-  color: var(--nord9) !important;
+  color: var(--nord10) !important;
 }
 
 
@@ -644,7 +651,11 @@ body.dark .darkable {
 
 
 .social-icons .fab, .social-icons .fas {
-  color: var(--nord8)/* or any color you want */
+  color: var(--nord3)
+}
+
+.social-icons .fab:hover, .social-icons .fas:hover {
+  color: var(--nord10)
 }
 
 .monospace {
