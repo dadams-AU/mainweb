@@ -173,7 +173,7 @@ a:focus {
 }
 
 .primary {
-  color: var(--nord10);
+  color: #5578a3);
 }
 
 .submit {
@@ -181,7 +181,7 @@ a:focus {
 }
 
 .secondary {
-  color: var(--nord7);
+  color: #517e7d;
 }
 
 .media img {
