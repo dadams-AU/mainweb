@@ -62,9 +62,9 @@ a:focus {
 
 
 .btn-outline-secondary {
-  color: var(--nord10);  /* This should be your desired text color */
-  border: 1px solid var(--nord10);  /* This should be your desired border color */
-  border-color: var(--nord10);  /* The border color */
+  color: var(--nord10);  
+  border: 1px solid var(--nord10);  
+  border-color: var(--nord10);  
   background-color: transparent;
   transition: all 0.3s ease 0s;
   font-family: "Ubuntu", sans-serif;
@@ -72,18 +72,18 @@ a:focus {
  }
 
  .btn-primary {
-  background-color: var(--nord10);  /* Replace with your desired color or variable */
-  border-color: var(--nord9);  /* Replace with your desired border color or variable */
-  color: var(--nord6);  /* Replace with your desired text color or variable */
+  background-color: #00050a;  
+  border-color: var(--nord9);  
+  color: var(--nord6);  
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary:active:focus {
-  background-color: var(--nord9);  /* Replace with your desired hover background color or variable */
-  border-color: var(--nord10);  /* Replace with your desired hover border color or variable */
-  color: var(--nord4);  /* Replace with your desired hover text color or variable */
+  background-color: var(--nord9);  
+  border-color: var(--nord10);  
+  color: var(--nord4);  
 }
 
 
@@ -92,24 +92,23 @@ a:focus {
 .btn-outline-secondary:focus,
 .btn-outline-secondary:active,
 .btn-outline-secondary:active:focus {
-  background-color: var(--nord9);  /* The hover background color */
-  color: #ECEFF4;  /* The hover text color */
- 
+  background-color: var(--nord9);  
+  color: #ECEFF4;  
 }
 
 /* Responsive Adjustments */
 @media (max-width: 576px) {
   .btn-outline-secondary {
-    width: 100%;  /* Let the button take the full width on very small screens */
-    margin-bottom: 10px; /* Adds space between stacked buttons */
+    width: 100%;  
+    margin-bottom: 10px; 
   }
 }
 
 /* Responsive Adjustments */
 @media (max-width: 576px) {
   .btn-primary {
-    width: 100%;  /* Let the button take the full width on very small screens */
-    margin-bottom: 10px; /* Adds space between stacked buttons */
+    width: 100%;  
+    margin-bottom: 10px; 
   }
 }
 
@@ -365,7 +364,7 @@ h4 {
 }
 
 .card-title {
-  color: var(--nord10);
+  color: #5578a3;
 }
 
 .list-group-item {
