@@ -952,25 +952,23 @@ hr {
     margin-top: 20px;
 }
 
-.social-icons a {
-    margin-right: 15px;
-    color: #E0E0E0;  
+.social-icons {
+    color: #003009;  
 }
-.social-icons a:hover {
-    color: #949494;
+.social-icons:hover {
+    color: #0A8929;
 }
 
 .dark-theme .social-icons {
     margin-top: 20px;
 }
 
-.dark-theme .social-icons a {
-    margin-right: 15px;
-    color: #333333;  
+.dark-theme .social-icons {
+    color: #1E7E34;  
 }
 
-.dark-theme .social-icons a:hover {
-    color: #666666;  
+.dark-theme .social-icons:hover {
+    color: #4FA961;  
 }
 
 /* social icons */
