@@ -822,3 +822,156 @@ ul {
 }
 
 /* ul */    
+
+/* ol */    
+
+ol {
+    padding-left: 20px; 
+}
+
+.dark-theme ol {
+    padding-left: 20px; 
+}
+
+/* ol */
+
+/* hr */
+
+
+hr {
+    border-top: 1px solid #e0e0e0;
+}
+
+.dark-theme hr {
+    border-top: 1px solid #333333;
+}
+
+/* hr */
+
+/* table */
+
+.table {
+    border: 1px solid #e0e0e0;
+}
+
+.dark-theme .table {
+    border: 1px solid #333333;
+}
+
+/* table */
+
+/* table head */
+
+.table thead th {
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.dark-theme .table thead th {
+    border-bottom: 2px solid #333333;
+}
+
+/* table head */
+
+/* table body */
+
+.table tbody td {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.dark-theme .table tbody td {
+    border-bottom: 1px solid #333333;
+}
+
+/* table body */
+
+/* table foot */
+
+.table tfoot td {
+    border-top: 2px solid #e0e0e0;
+}
+
+.dark-theme .table tfoot td {
+    border-top: 2px solid #333333;
+}
+
+/* table foot */
+
+/* table striped */
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+}
+
+.dark-theme .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #333333;
+}
+
+/* table striped */
+
+/* table hover */
+
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.dark-theme .table-hover tbody tr:hover {
+    background-color: #333333;
+}
+
+/* table hover */
+
+/* table active */
+
+.table-active, .table-active > th, .table-active > td {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+.dark-theme .table-active, .table-active > th, .table-active > td {
+    background-color: rgba(0, 0, 0, 0.075);
+}
+
+/* table active */
+
+/* table responsive */
+
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.dark-theme .table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* table responsive */
+
+/* social icons */
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 15px;
+    color: #E0E0E0;  
+}
+.social-icons a:hover {
+    color: #949494;
+}
+
+.dark-theme .social-icons {
+    margin-top: 20px;
+}
+
+.dark-theme .social-icons a {
+    margin-right: 15px;
+    color: #333333;  
+}
+
+.dark-theme .social-icons a:hover {
+    color: #666666;  
+}
+
+/* social icons */
+
