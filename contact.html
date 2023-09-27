@@ -191,10 +191,17 @@
 <hr class="my-4">
 	 
 <section>
+  <div class="row justify-content-center">
+  <div class="col-12 col-md-6 mb-3 mb-md-0 pr-md-3">
+    <h1 class="secondary-blue text-center mb-4">Book an Appointment</h1>
+    <div class="calendly-inline-widget" data-url="https://calendly.com/davidpadams?hide_landing_page_details=1&hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
+</div>
+</div>
     <div class="row justify-content-center">
         <div class="col-12 col-md-6 mb-3 mb-md-0 pr-md-3">
-            <h1 class="secondary text-center mb-4">Say Hi <i class="fas fa-envelope"></i></h1>
-            <form id="contact-form" class="contact-form" action="https://formspree.io/f/xknaeblz" method="POST">
+            <h1 class="secondary-green text-center mb-4">Say Hi <i class="fas fa-envelope"></i></h1>
+              <form id="contact-form" class="contact-form" action="https://formspree.io/f/xknaeblz" method="POST">
+                  <!-- ... form fields ... -->
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input type="text" class="form-control" id="name" name="name" required>
@@ -208,16 +215,12 @@
                     <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
                 </div>
                 <button onClick="handleFormSubmit(event)" class="btn btn-submit mt-3">Send Message</button>
-            </form>
+              </form>
         </div>
+       
     </div>
-</section>
-
-
-
-
-
-
+  </section>
+         
 
 <footer class="text-center mt-3">
     <div class="container">
@@ -239,6 +242,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="js/scripts.js"></script>
+  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 	<!-- The reCAPTCHA scripts -->
     <script src="https://www.google.com/recaptcha/api.js?render=6LfxIA0mAAAAAFWWyqiOpo9JybP41OJnCNOTdpBf"></script>
     <script>
