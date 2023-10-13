@@ -8,66 +8,102 @@
 /* light theme */
 
 body.light-theme {
-    background-color: #FFFFFF;
+    background: linear-gradient(to bottom, #FFFFFF, #F2F2F2);
     color: #333333;
 }
 
+
 .light-theme .primary-blue {
-    color: #1D78CF;
+    background: linear-gradient(to bottom, #1D78CF, #156593);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
+
 .light-theme .secondary-blue {
-    color: #1D78CF;
+    background: linear-gradient(to right, #1D78CF, #1A5F8E);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .light-theme .primary-gray {
-    color: #E0E0E0;
+    background: linear-gradient(to bottom, #E0E0E0, #C4C4C4);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .light-theme .secondary-gray {
-    color: #949494;
+    background: linear-gradient(to right, #949494, #717171);
+    -webkit-background-clip: text;
+    color: transparent;
 }
+
 
 .light-theme .primary-green {
-    color: #0A8929;
+    background: linear-gradient(to bottom, #0A8929, #066B20);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
+
 .light-theme .secondary-green {
-    color: #003009;
+    background: linear-gradient(to right, #003009, #001D05);
+    -webkit-background-clip: text;
+    color: transparent;
 }
+
 
 
 
 /* dark theme */
 
 body.dark-theme {
-    background-color: #222222;
+    background: linear-gradient(to bottom, #222222, #1A1A1A);
     color: #E0E0E0;
 }
 
+
 .dark-theme .primary-blue {
-    color: #0057CC;
+    background: linear-gradient(to bottom, #0057CC, #003D7E);
+    -webkit-background-clip: text;
+    color: transparent;
 }
+
 
 .dark-theme .secondary-blue {
-    color: #3C86E3;
+    background: linear-gradient(to right, #3C86E3, #2F65BC);
+    -webkit-background-clip: text;
+    color: transparent;
 }
+
 
 .dark-theme .primary-gray {
-    color: #333333;
+    background: linear-gradient(to bottom, #333333, #1A1A1A);
+    -webkit-background-clip: text;
+    color: transparent;
 }
+
 
 .dark-theme .secondary-gray {
-    color: #666666;
+    background: linear-gradient(to right, #666666, #4D4D4D);
+    -webkit-background-clip: text;
+    color: transparent;
 }
+
 
 .dark-theme .primary-green {
-    color: #1E7E34;
+    background: linear-gradient(to bottom, #1E7E34, #145923);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
+
 .dark-theme .secondary-green {
-    color: #4FA961;
+    background: linear-gradient(to right, #4FA961, #3B7A46);
+    -webkit-background-clip: text;
+    color: transparent;
 }
+
 
  /* fonts */
 
