@@ -98,6 +98,14 @@ INPUT ./tekes.aux
 INPUT ./tekes.aux
 INPUT tekes.aux
 OUTPUT tekes.aux
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT ./tekes.out
 INPUT ./tekes.out
 INPUT tekes.out

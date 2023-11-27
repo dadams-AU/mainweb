@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1701100349 "/Volumes/SamsungSSD/Nextcloud/dadams-AU/mainweb/teke/tekes.tex" "tekes.pdf" "tekes" 1701100350 0
-  "/Volumes/SamsungSSD/Nextcloud/dadams-AU/mainweb/teke/tekes.tex" 1701100349 2262 6fce69e98577cdee736ad26afa1bbcba ""
+["pdflatex"] 1701102452 "/Volumes/SamsungSSD/Nextcloud/dadams-AU/mainweb/teke/tekes.tex" "tekes.pdf" "tekes" 1701102452 0
+  "/Volumes/SamsungSSD/Nextcloud/dadams-AU/mainweb/teke/tekes.tex" 1701102452 2366 c3b33b054869051b2ae71872ef7a9b78 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -37,11 +37,14 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1601931149 46845 3b58f70c6e861a13d927bff09d35ecbc ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty" 1668028059 18450 88279bf67c81e69f8e3f1c1bad1a26c5 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def" 1663965824 19448 1e988b341dda20961a6b931bcde55519 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty" 1654720880 7233 e46ce9241d2b2ca2a78155475fdd557a ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty" 1654720880 18387 8f900a490197ebaf93c02ae9476d4b09 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty" 1654720880 8010 a8d949cbdbc5c983593827c9eec252e1 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty" 1654720880 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
+  "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx" 1667332637 2885 9c645d672ae17285bba324998918efd8 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty" 1654720880 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty" 1580250785 17914 4c28a13fc3d975e6e81c9bea1d697276 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def" 1688845681 48313 3e63f55d416cb9a219ad316780ed6e84 ""
@@ -61,9 +64,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1690962113 4647401 00ff9efb2ef8bbb46dd24b87a26bdf62 ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1690962326 8172528 358919f8ad063ad2501f5a088a2ad7bb ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "tekes.aux" 1701100350 732 50d1a07ae6b88327d340e82ba47c959f "pdflatex"
-  "tekes.out" 1701100350 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "tekes.tex" 1701100349 2262 6fce69e98577cdee736ad26afa1bbcba ""
+  "tekes.aux" 1701102452 732 50d1a07ae6b88327d340e82ba47c959f "pdflatex"
+  "tekes.out" 1701102452 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "tekes.tex" 1701102452 2366 c3b33b054869051b2ae71872ef7a9b78 ""
   (generated)
   "tekes.aux"
   "tekes.log"
