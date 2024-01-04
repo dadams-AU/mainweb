@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Adams;David;Prescott;
+FN:David Prescott Adams
+ORG:Cal State Fullerton
+TITLE:Associate Professor of Public Administration
+EMAIL:dpadams@fullerton.edu
+EMAIL;TYPE=home:david@dadams.io
+TEL;TYPE=work,voice:(657) 278-4770
+TEL;TYPE=cell,voice:(949) 659-3621
+URL:https://dadams.io
+END:VCARD
