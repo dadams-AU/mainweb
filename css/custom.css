@@ -1008,3 +1008,34 @@ hr {
 }
 
 /* social icons */
+
+
+
+.social-icon {
+    display: inline-block;
+    vertical-align: middle;
+    /* Adjust size if needed */
+    width: 24px; 
+    height: 24px; 
+    /* Additional styling to match other icons */
+}
+.social-icon-svg {
+    display: inline-block;
+    vertical-align: top;    
+    margin-top: 4px;
+    width: 24px; 
+    height: 24px;
+    color: #003009; /* Default color */
+}
+
+.social-icon-svg:hover {
+    color: #0A8929; /* Hover color */
+}
+
+.dark-theme .social-icon-svg {
+    color: #1E7E34; /* Dark theme default color */
+}
+
+.dark-theme .social-icon-svg:hover {
+    color: #4FA961; /* Dark theme hover color */
+}
